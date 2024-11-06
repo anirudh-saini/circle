@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "./nav.module.scss";
 import { link } from "../../data/Links";
+
 export const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [showNav, setShowNav] = useState(true);
@@ -15,14 +16,17 @@ export const Nav = () => {
         if (typeof window !== "undefined") {
             let scrollY = window.scrollY;
             if (scrollY > lastScrollY && scrollY > 168) {
-                // Hide the navbar if scrolling down and past a threshold
-                setShowNav(false);
+                setShowNav(false); // Hide navbar if scrolling down
             } else {
-                // Show the navbar if scrolling up
-                setShowNav(true);
+                setShowNav(true); // Show navbar if scrolling up
             }
             setLastScrollY(scrollY);
         }
+    };
+
+    const handleLinkClick = () => {
+        // Close the menu when a link is clicked
+        setIsOpen(false);
     };
 
     useEffect(() => {
@@ -71,16 +75,24 @@ export const Nav = () => {
             </div>
             <ul className={`${styles.nav_links} ${isOpen ? styles.open : ""}`}>
                 <li>
-                    <a href="#our_work">Our work</a>
+                    <a href="#our_work" onClick={handleLinkClick}>
+                        Our work
+                    </a>
                 </li>
                 <li>
-                    <a href="#faq">FAQ</a>
+                    <a href="#faq" onClick={handleLinkClick}>
+                        FAQ
+                    </a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact" onClick={handleLinkClick}>
+                        Contact
+                    </a>
                 </li>
                 <li>
-                    <a href={link.contact}>Book a Call</a>
+                    <a href={link.contact} onClick={handleLinkClick}>
+                        Book a Call
+                    </a>
                 </li>
             </ul>
         </nav>
