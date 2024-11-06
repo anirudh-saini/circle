@@ -1,6 +1,6 @@
 @use "/src/styles/media_queries" as ab;
 .carousel {
-    margin-top: 6em;
+    margin-top: 12em;
     overflow: hidden;
     .slide {
         width: clamp(75em, 125vi, 125em);

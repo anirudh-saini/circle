@@ -63,7 +63,7 @@
                     }
                     .AccordionDetails {
                         padding-inline: 1.5em;
-                        padding-block: 0.8em;
+                        padding-bottom: 0.8em;
                         p {
                             color: white;
                         }
@@ -111,7 +111,7 @@
                         // padding-inline: 3em;
                         text-decoration: none;
                         @include ab.screen-60 {
-                            width: 15em;
+                            width: 16.5em;
                         }
                     }
                 }

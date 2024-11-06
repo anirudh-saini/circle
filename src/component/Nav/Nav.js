@@ -57,7 +57,7 @@ export const Nav = () => {
         <nav
             className={`container ${styles.navbar} ${
                 !showNav ? styles.hide : ""
-            }`}
+            } `}
         >
             <div className={styles.navbar_logo}>
                 <img src="logo.svg" alt="logo" />

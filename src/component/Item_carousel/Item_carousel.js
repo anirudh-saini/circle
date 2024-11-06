@@ -32,7 +32,7 @@ export const Item_carousel = () => {
     };
 
     return (
-        <div className={`container ${styles.carousel}`}>
+        <div className={` ${styles.carousel}`}>
             <div className={styles.left}>
                 {[...Array(3)].map((_, i) => (
                     <React.Fragment key={i}>
