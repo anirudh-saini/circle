@@ -1,0 +1,24 @@
+.clam {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 5em;
+    gap: 2em;
+    .content {
+        // display: flex;
+        // flex-direction: column;
+        p {
+            text-align: center;
+            font-size: clamp(1.5rem, 3.75vi, 3.75rem);
+        }
+        > :nth-child(1) {
+            color: white;
+            font-weight: 500;
+        }
+        > :nth-child(2) {
+            color: #00e3fc;
+            font-weight: 600;
+        }
+    }
+}

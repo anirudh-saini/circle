@@ -1,0 +1,19 @@
+.claim {
+    a {
+        // outline: 2px solid red;
+        width: clamp(23em, 24vi, 24em);
+        padding-block: 0.8em;
+        padding-inline: 1em;
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8em;
+        background-color: white;
+        border-radius: 1em;
+        text-decoration: none;
+        color: black;
+        box-shadow: 0px -4px 0px 0px #00000040 inset;
+        font-size: clamp(0.8rem, 1.2vi, 1.2rem);
+    }
+}

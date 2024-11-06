@@ -1,0 +1,83 @@
+@use "/src/styles/media_queries" as ab;
+.carousel {
+    margin-top: 6em;
+    overflow: hidden;
+    .slide {
+        width: clamp(75em, 125vi, 125em);
+
+        div {
+            img {
+                width: 100%;
+                aspect-ratio: 1;
+                object-fit: cover;
+            }
+            p {
+                padding-top: 0.8em;
+                color: white;
+                font-size: 0.8rem;
+            }
+        }
+    }
+    > div {
+        > div {
+            > div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: clamp(1em, 2vi, 2em);
+            }
+        }
+    }
+
+    // Styling for the button container
+}
+.buttonstyle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include ab.screen-40 {
+        justify-content: center;
+        flex-direction: column;
+        gap: 1em;
+    }
+    .customDots {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px; // Space between carousel and dots
+    }
+
+    .dot {
+        width: 10px; // Width of the dot
+        height: 10px; // Height of the dot
+        margin: 0 5px; // Space between dots
+        background-color: rgb(117, 117, 117); // Dot color
+        border-radius: 50%; // Make it circular
+        cursor: pointer; // Pointer on hover
+        transition: background-color 0.3s; // Smooth transition for hover
+
+        &.active {
+            background-color: white; // Active dot color
+        }
+
+        &:hover {
+            background-color: rgb(189, 189, 189); // Darker color on hover
+        }
+    }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        margin-block: 2em;
+        // Button styling
+        .button {
+            padding: 0;
+            background-color: black;
+            color: white;
+            border: 0.1em solid white;
+            border-radius: 1em;
+            padding-inline: 1em;
+            padding-block: 0.5em;
+            cursor: pointer;
+        }
+    }
+}

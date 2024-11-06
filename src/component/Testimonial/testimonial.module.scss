@@ -1,0 +1,82 @@
+.testimonial {
+    display: grid;
+    margin-block: 8em;
+    gap: 2em;
+    h3 {
+        justify-self: center;
+        text-align: center;
+        // outline: 2px solid red;
+        background-color: #1f1f1f;
+        color: white;
+        width: 8em;
+        padding-block: 0.3em;
+        border-radius: 1em;
+        font-weight: 400;
+    }
+    > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .heading {
+            // outline: 2px solid red;
+            width: clamp(17em, 38vi, 38em);
+            p {
+                text-align: center;
+                font-size: clamp(1.5rem, 3.5vi, 3.5rem);
+                // font-weight: 500;
+                color: white;
+            }
+        }
+        .content {
+            // outline: 2px solid red;
+            margin-top: 3em;
+            color: white;
+            display: grid;
+            gap: clamp(1em, 2vi, 2em);
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            align-items: start;
+
+            > :nth-child(2) {
+                grid-row: span 2;
+            }
+            > :nth-child(6) {
+                grid-row: span 2;
+            }
+            .box {
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+                background-color: #1f1f1f;
+                padding: 1em;
+                border-radius: 0.5em;
+                .head {
+                    display: flex;
+                    gap: 1em;
+                    h4 {
+                        font-weight: 550;
+                        font-size: 1rem;
+                    }
+                    p {
+                        font-size: 0.8rem;
+                    }
+                }
+                .star {
+                    display: flex;
+                    gap: 0.2em;
+                    img {
+                        width: 1.2em;
+                        aspect-ratio: 1;
+                    }
+                }
+                .para {
+                    display: grid;
+                    gap: 2em;
+                    p {
+                        // outline: 2px solid red;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}

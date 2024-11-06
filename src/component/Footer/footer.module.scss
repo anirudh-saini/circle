@@ -1,0 +1,92 @@
+$carousel-speed: 12s;
+.footer {
+    overflow: hidden;
+    .carousel {
+        display: flex;
+        gap: 4em;
+        // overflow: hidden;
+        white-space: nowrap;
+        width: calc(1784px * 3 + 128px);
+
+        animation: child1 $carousel-speed linear infinite;
+        // outline: 2px solid red;
+
+        p {
+            color: #00e3fc61;
+            font-size: 7.5rem;
+            font-style: italic;
+            font-weight: 600;
+            font-family: "Playfair Display", serif;
+        }
+        &:hover {
+            animation-play-state: paused;
+            p {
+                color: #00e3fc;
+            }
+        }
+    }
+    .content {
+        border-top: 0.1em solid white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 1em;
+        .para {
+            p {
+                color: white;
+                font-size: clamp(0.8rem, 1.2vi, 1.2rem);
+            }
+        }
+        .social {
+            display: flex;
+            gap: clamp(0.5em, 1vi, 1em);
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #1e1e1e;
+                font-size: clamp(0.8rem, 1.2vi, 1.2rem);
+                width: clamp(1.5rem, 2.2vi, 2.2rem);
+                aspect-ratio: 1;
+                background-color: white;
+                border-radius: 50%;
+            }
+            > :nth-child(1) {
+                &:hover {
+                    background-color: #4867aa;
+                }
+            }
+            // > :nth-child(2) {
+            //     &:hover {
+            //         background-color: #1e1e1e;
+            //         color: white;
+            //     }
+            // }
+
+            > :nth-child(2) {
+                &:hover {
+                    background-color: #25d366;
+                }
+            }
+            > :nth-child(3) {
+                &:hover {
+                    background: linear-gradient(
+                        #6559ca,
+                        #bc318f 30%,
+                        #e33f5f 50%,
+                        #f77638 70%,
+                        #fec66d 100%
+                    );
+                }
+            }
+        }
+    }
+}
+@keyframes child1 {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-35.6%);
+    }
+}
