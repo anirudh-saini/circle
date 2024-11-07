@@ -60,7 +60,9 @@ export const Nav = () => {
             } `}
         >
             <div className={styles.navbar_logo}>
-                <img src="logo.svg" alt="logo" />
+                <a href="/">
+                    <img src="logo.svg" alt="logo" />
+                </a>
             </div>
             <div className={styles.hamburger} onClick={toggleMenu}>
                 <div

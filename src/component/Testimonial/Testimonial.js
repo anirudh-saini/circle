@@ -8,7 +8,7 @@ export const Testimonial = () => {
             name: "Eben Pingree",
             star: 5,
             para: [
-                "Namya and team blew away our expectations when it came to design and development of our new site. They were incredibly fast, and very responsive to our feedback. We went into this without a ton of knowledge about the company, but were very impressed by the work they produced.",
+                "Aditya and his team exceeded our expectations in every aspect of the design and development of our new site. Despite starting the project with limited knowledge about their company, we were thoroughly impressed with the quality of work they delivered.",
             ],
         },
         {
@@ -17,9 +17,9 @@ export const Testimonial = () => {
             name: "Chrys Bader",
             star: 5,
             para: [
-                "Namya and team blew away our expectations when it came to design and development of our new site. They were incredibly fast, and very responsive to our feedback. We went into this without a ton of knowledge about the company, but were very impressed by the work they produced.",
-                "She was quick to provide thorough details when we asked, and also tolerated me (also a designer) contributing to the design process.",
-                "We're happy with where we ended up, and our new landing page is a major improvement from the previous one.",
+                "Aditya was incredibly patient, professional, and detail-oriented. We were impressed by how quickly he delivered outstanding copywriting and initial designs, all while accommodating our team’s high standards and specific preferences for communication.",
+                "He was quick to provide thorough information whenever we needed it, and was open to my input as a fellow designer throughout the process. ",
+                "We're extremely pleased with the final result, and our new landing page is a significant upgrade from the previous one.",
                 "Thank you!! Would definitely recommend.",
             ],
         },
@@ -29,7 +29,7 @@ export const Testimonial = () => {
             name: "Matt Byrom",
             star: 4,
             para: [
-                "Namya and team blew away our expectations when it came to design and development of our new site. They were incredibly fast, and very responsive to our feedback. We went into this without a ton of knowledge about the company, but were very impressed by the work they produced.",
+                "Aditya created a landing page for our SaaS tool, and I couldn’t be more satisfied. The entire process was smooth, communication was quick and insightful, and the final result was exactly what I was hoping for. I highly recommend working with Aditya if you’re looking for high-quality, modern web design.",
             ],
         },
 
@@ -39,7 +39,7 @@ export const Testimonial = () => {
             name: "Brandon Klein",
             star: 5,
             para: [
-                "Absolutely excellent service and designs. Namya helped me redesign my existing landing page, and it resulted in a 30% conversion rate increase after A/B testing it thoroughly.",
+                "Punctual. Ability to not just take and listen to feedback but rapidly implement it... and all while being easy to work with.",
             ],
         },
         {
@@ -48,7 +48,7 @@ export const Testimonial = () => {
             name: "Kaan",
             star: 5,
             para: [
-                "Absolutely excellent service and designs. Namya helped me redesign my existing landing page, and it resulted in a 30% conversion rate increase after A/B testing it thoroughly.",
+                "Absolutely excellent service and designs. Aditya helped me redesign my existing landing page, and it resulted in a 30% conversion rate increase after A/B testing it thoroughly.",
             ],
         },
         {
@@ -57,8 +57,8 @@ export const Testimonial = () => {
             name: "Kelvin H.",
             star: 5,
             para: [
-                "I’ve had a great experience working with Namya on our template assets. Her turnaround time is always fast, taking our research and turning it into polished designs in just a few days.",
-                "Namya is also incredibly open to feedback. We’ve been communicating through Slack and Figma comments, and she always explains her design choices clearly. This leads to really productive conversations. I’d recommend working with Namya – she’s a rockstar!",
+                "I’ve had a great experience working with Aditya on our template assets. His  turnaround time is always fast, taking our research and turning it into polished designs in just a few days.",
+                "Aditya is also incredibly open to feedback. We’ve been communicating through Slack and Figma comments, and he always explains his design choices clearly. This leads to really productive conversations. I’d recommend working with Aditya – he’s a rockstar!",
             ],
         },
 
@@ -68,7 +68,7 @@ export const Testimonial = () => {
             name: "Louis Dharma",
             star: 5,
             para: [
-                "Namya and team blew away our expectations when it came to design and development of our new site. They were incredibly fast, and very responsive to our feedback. We went into this without a ton of knowledge about the company, but were very impressed by the work they produced.",
+                "Aditya delivers stunning, high-converting designs in record time. It's rare to find a designer you can trust with your brand, but Aditya and Circle Digital Solutions have truly earned that trust. I’m excited to work on more projects with them in the future.",
             ],
         },
 
@@ -77,7 +77,7 @@ export const Testimonial = () => {
             title: "Founder of Easlo",
             name: "Jason Chin",
             star: 5,
-            para: ["I trust Namya to come up with sleek and great design!"],
+            para: ["I trust Aditya to come up with sleek and great design!"],
         },
     ];
 
